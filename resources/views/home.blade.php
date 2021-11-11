@@ -8,5 +8,10 @@
 </head>
 <body>
     <h1>ciao</h1>
+    @foreach ($viaggi as $viaggio)
+
+    <h3>{{$viaggio['località']}}</h3>
+
+    @endforeach
 </body>
 </html>
